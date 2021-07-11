@@ -1194,3 +1194,63 @@ h4 {
 }
 
 }
+
+@media only screen and (max-width: 425px) {
+
+    /* LAYOUT */
+
+    .container-fluid {
+        padding: 0px 5px;
+    }
+
+    /* TYPOGRAPHY */
+
+    p {
+        font-size: 0.9em;
+    }
+
+
+    /* HEADER */
+
+    #header {
+        height: 748px;
+    }
+
+    #header h2 a {
+        font-size: 0.6em;
+        margin-top: 6em;
+        margin-bottom: 0px;
+    }
+
+    #header h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-top: 0px;
+        width: 80%;
+
+    }
+
+    #header p {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        width: 70%;
+    }
+
+    /* SECTION 1 */
+
+    #enjoyablePlaceDiv {
+        top: 8.2%;
+    }
+
+    .section1Header1 {
+        margin-top: 100%;
+        width: 80%;
+    }
+
+    #section1 h2 {
+        font-size: 2em;
+    }
+}
